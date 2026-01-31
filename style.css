@@ -185,6 +185,11 @@ body {
         width: 100%;
     }
 
+    .apresentacao__conteudo__titulo {
+    font-size: 2rem;
+    font-family: var(--fonte-primaria);
+}
+
     .apresentacao__conteudo__texto {
         font-size: 1.2rem;
     }
@@ -207,9 +212,20 @@ body {
     }
 
 
-    .apresentacao__imagem{
+    .apresentacao__imagem {
         display: none;
-        width: 100vh;
+    }
+
+    .apresentacao__imagem__1200 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    
+    }
+
+    .rodape {
+        font-size: .7rem;
     }
 
 
@@ -238,5 +254,6 @@ body {
         width: 50%;
 
     }
+
 
 }
