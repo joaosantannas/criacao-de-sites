@@ -152,11 +152,22 @@ body {
 @media (max-width: 1400px) {
 
     .header {
+        display: flex;
         padding: 5%;
+        
     }
 
     .header__menu{
         justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        row-gap: 1rem;
+        gap: 1rem;
+        
+    }
+
+    .header__menu__options {
+        font-size: 1rem;
     }
 
     .apresentacao {
@@ -184,7 +195,8 @@ body {
 
 
     .apresentacao__imagem{
-        width: 100%;
+        display: none;
+        width: 100vh;
     }
 
 
